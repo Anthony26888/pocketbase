@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: pocketbase
+    env: linux
+    plan: free
+    buildCommand: ""
+    startCommand: "./start.sh"
+    envVars:
+      - key: PORT
+        value: 8090
